@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 import os
 import matplotlib.pyplot as plt
-from soilprofile2D import gwl_Wsto, nan_function
+from soilprofile2D import gwl_Wsto
 from koordinaattimuunnos import koordTG
 from topmodel import twi as twicalc
 import re
