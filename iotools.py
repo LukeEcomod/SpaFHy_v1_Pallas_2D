@@ -203,10 +203,10 @@ def read_top_gisdata(fpath, mask_streams=True, plotgrids=False):
     fpath = os.path.join(workdir, fpath)
 
     # flow accumulation
-    flowacc, _, _, cellsize, _ = read_AsciiGrid(os.path.join(fpath, 'flowacc_p.dat')) # flowacc_p.dat
+    flowacc, _, _, cellsize, _ = read_AsciiGrid(os.path.join(fpath, 'flowacc.dat')) # flowacc_p.dat
     flowacc = flowacc #+ eps
     # slope
-    slope, _, _, _, _ = read_AsciiGrid(os.path.join(fpath, 'slope_old.dat')) # slope_old
+    slope, _, _, _, _ = read_AsciiGrid(os.path.join(fpath, 'slope.dat')) # slope_old
     slope = slope #+ eps
 
     twi = np.ones(np.shape(slope))
