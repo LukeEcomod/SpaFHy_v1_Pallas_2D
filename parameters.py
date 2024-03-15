@@ -11,7 +11,7 @@ import time
 def parameters(folder=''):
 
     pgen = {'description': 'final_run',  # description written in result file
-            'simtype': '2D', # 1D, TOP, 2D,
+            'simtype': '1D', # 1D, TOP, 2D,
             'start_date': '2020-10-01',  # '2011-01-01', for tests: '2020-01-01'
             'end_date': '2021-08-01', # 2021-09-01,
             #'spinup_file': r'F:\SpaFHy_2D_2021/testcase_input_202304051037_spinup.nc',
